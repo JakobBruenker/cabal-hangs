@@ -1,0 +1,9 @@
+cabal-version:      2.4
+name:               cabal-hangs
+version:            0.1.0.0
+
+executable cabal-hangs
+    main-is:          Main.hs
+    build-depends:      base >=4.16 && < 5
+    hs-source-dirs:     app
+    default-language:   GHC2021
